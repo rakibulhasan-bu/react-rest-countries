@@ -1,0 +1,49 @@
+.search-input {
+  background-image: linear-gradient(
+    to right,
+    #dce2f0 0%,
+    #cfdef3 51%,
+    #e0eafc 100%
+  );
+  outline: none;
+  font-size: 18px;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #e52d27 0%,
+    #b31217 51%,
+    #e52d27 100%
+  );
+  padding: 3px 15px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  background-image: linear-gradient(
+    to right,
+    #dce2f0 0%,
+    #cfdef3 51%,
+    #e0eafc 100%
+  );
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+}
+
+.container:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+}
