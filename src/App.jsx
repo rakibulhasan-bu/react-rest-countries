@@ -54,7 +54,7 @@ function App() {
           onChange={handleSearch}
         />
       </div>
-      <div className="mx-auto grid w-11/12 grid-cols-4 gap-6 p-6">
+      <div className="mx-auto grid w-11/12 grid-cols-1 gap-6 p-6 md:grid-cols-3 lg:grid-cols-4">
         {countries.map((country) => (
           <Country
             key={uuid()}
